@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+	padding-top: 0;
+
+}
+
+a{
+	text-decoration: none;
+}
+
+.menu-bar{
+	text-align: center;
+	height: 50px;
+	background-color: dodgerblue;
+	line-height: 50px;
+}
+.menu-bar ul li{
+	display: inline-block;
+}
+.menu-bar ul li a{
+	font-size: 20px;
+	color: white;
+	width: 500;
+	margin: 0px 10px;
+	transition: 1.5s;
+}
+
+.menu-bar ul li a:hover{
+	color: red;
+	font-size: 22px;
+	transition: 1s;
+
+}
+
+/* banner section scc here*/
+.green{
+	width: 100%;
+	background-image: url(../Image/green.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+}
+
+.green h1{
+	font-size: 30px;
+	text-align: center;
+	color: black;
+	padding-top: 200px;
+}
+
+.social-media{
+	text-align: center;
+	margin-top: 80px;
+
+}
+
+.social-media ul li{
+	list-style: none;
+	display: inline-block;
+
+}
+ 
+.social-media ul li a i{
+	font-size: 25px;
+	height: 50px;
+	width: 50px;
+	background: dodgerblue;
+	border-radius: 50%;
+	line-height: 50px;
+	color: white;
+	margin: 0 10px;
+	transition: 0.5s;
+}
+
+.social-media ul li a i:hover{
+	color: purple;
+	background-color: green;
+	transition: 0.5s;
+	transform: scale(1.2);
+
+}
